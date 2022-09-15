@@ -17,7 +17,7 @@ body{
   margin-left: -136px;
   padding-bottom: 3%;  
  }
- .container input{
+ .forms input{
   text-align: center;
   border: 1px solid rgb(71, 22, 187);
   border-radius: 5px;
@@ -28,11 +28,14 @@ body{
   margin-left: 150px;
   
  }
-.container input:hover{
+
+.forms input:hover{
   width: 31VW;
   height: 7vh;
 }
  .container button{
+   display: inline-block;
+   
   background-color: rgb(83, 52, 196);
   color: white;
   border-radius: 10px;
@@ -45,7 +48,7 @@ body{
 
   h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     color: rgb(71, 22, 187);
  }
  h3{

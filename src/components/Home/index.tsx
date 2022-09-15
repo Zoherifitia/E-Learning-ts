@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Form } from "../Form";
 import Modal from "../modal/Modal";
+import "../Home/style.css";
 export function Home(){
 
    const navigate = useNavigate();
@@ -40,12 +41,13 @@ export function Home(){
           </div>
     <div className="input">
               <div className=''>
-                  <div className="container">
-                      <div>
+                  <div className="container forms">
+                    
+                      <div className="demi">
                           <label htmlFor="inputName" className="form-label"></label>
                           <input ref={first_Name} type="text" placeholder="Nom"/>
                       </div>
-                      <div>
+                      <div className="demi">
                           <label htmlFor="inputName" className="form-label"></label>
                           <input ref={last_Name} type="text" placeholder="Prenom" />
                       </div>

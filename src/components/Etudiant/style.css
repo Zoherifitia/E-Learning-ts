@@ -1,13 +1,6 @@
-body{
-  
-}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
  .container {
@@ -17,21 +10,7 @@ body{
   margin-left: -136px;
   padding-bottom: 3%;  
  }
- .container input{
-  text-align: center;
-  border: 1px solid rgb(71, 22, 187);
-  border-radius: 5px;
-  width: 30VW;
-  height: 7vh;
-  margin: 5px 0px 5px 5px;
-  
-  margin-left: 150px;
-  
- }
-.container input:hover{
-  width: 31VW;
-  height: 7vh;
-}
+ 
  .container button{
   background-color: rgb(83, 52, 196);
   color: white;
@@ -43,11 +22,7 @@ body{
   margin-left: 159px;
  }
 
-  h2{
-    text-align: center;
-    font-size: 35px;
-    color: rgb(71, 22, 187);
- }
+  
  h3{
     text-align: center;
     font-size: 30px;
@@ -79,17 +54,23 @@ body{
  nav a:hover{
     color: rgb(71, 22, 187);
  }
- .en_tete{
-    color: white;
-    width: 50%;
+ .container input{
+  text-align: center;
+  border: 1px solid rgb(71, 22, 187);
+  border-radius: 5px;
+  width: 30VW;
+  height: 7vh;
+  margin: 5px 0px 5px 5px;
+  
+  margin-left: 150px;
+  
  }
- .en_tete_menu{
-    text-align: right;
-    vertical-align: top;
-    width: 40%;
-    margin-left: 50%;
- }
- div p{
+
+.container input:hover{
+  width: 31VW;
+  height: 7vh;
+}
+ p{
    text-align: center;
    font-size: 25px;
    padding-left: 100px;

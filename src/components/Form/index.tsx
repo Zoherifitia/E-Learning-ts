@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import "../Form/style.css";
 
 export function Form({closeModal} : any){
     const userName =useRef<HTMLInputElement>(null);
